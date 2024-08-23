@@ -47,8 +47,8 @@ const CardList = ({ setLoading,item}) => {
   }
   return (
     <div className='flex flex-col justify-start w-full '>
-      <div className='font-bold'>{item?.category}</div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-2 md:p-auto w-full gap-3'>
+      <div className='font-bold '>{item?.category}</div>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-2 md:!px-0 w-full gap-3'>
         {item?.widgets.length>0 && item?.widgets.map((widget,index)=>(
           <Cards widget={widget} key={index}/>
         ))}

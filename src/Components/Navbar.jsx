@@ -15,8 +15,8 @@ const Navbar = ({ setSearchQuery }) => {
     return paths.map((path,index)=>{
       const url = `/${paths.slice(0,index+1).join('/')}`;
       return (
-        <Breadcrumb.Item key={index} href={url}>
-          {path.charAt(0).toUpperCase() + path.slice(1)}
+        <Breadcrumb.Item key={index} href={url} >
+          <span className="font-bold text-blue-900">{path.charAt(0).toUpperCase() + path.slice(1)}</span>
         </Breadcrumb.Item>
       );
     })
