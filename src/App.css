@@ -1,0 +1,20 @@
+#root{
+  width: 100%;
+  min-height: 100vh;
+}
+@media screen and (max-width: 400px) {
+  .custom-css > span {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+}
+@media screen and (max-width:768px){
+  .custom-drawer{
+    width: 100% !important;
+  }
+}
+@media screen and (min-width:768px){
+  .custom-drawer{
+    width: 50% !important;
+  }
+}

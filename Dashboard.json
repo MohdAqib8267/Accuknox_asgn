@@ -1,0 +1,45 @@
+[
+    
+      {
+        "category": "CSPM Executive Dashboard",
+        "widgets": [
+          {
+            "name": "Cloud Accounts",
+            "information": "This is a widget for Cloud accounts. Handles all data related to cloud accounts."
+          },
+          {
+            "name": "Cloud Accounts Risk Assessment",
+            "information": "This is a widget for Cloud accounts. Handles all data related to cloud accounts."
+          }
+        ]
+      },
+      {
+        "category": "CWPP Dashboard",
+        "widgets": [
+          {
+            "name": "Top 5 Namespace-specific Alerts",
+            "information": "This is a widget for namespace-specific alerts. Handles all data related to namespace-specific alerts."
+          },
+          {
+            "name": "Workload Alerts",
+            "information": "This is a widget for workload alerts. Handles all data related to workload alerts."
+          }
+        ]
+      },
+      {
+        "category": "Registry Scan",
+        "widgets": [
+          {
+            "name": "Image Risk Assessment",
+            "information": "This is a widget for image risk assessment. Handles all data related to image risk assessment."
+          },
+          {
+            "name": "Image Security Issue",
+            "information": "This is a widget for image security issues. Handles all data related to image security issues."
+          }
+        ]
+      }
+    
+    ]
+  
+  
