@@ -51,7 +51,7 @@ const Dashboard = ({ searchQuery }) => {
         setLoading(false);
       }
     }
-  }, [data, searchQuery,selectedValue]);
+  }, [data, searchQuery,selectedValue,loading]);
 
   const handleChange = (name, value) => {
     setSelectedValue({
